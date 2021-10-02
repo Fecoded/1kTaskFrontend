@@ -11,7 +11,7 @@ import axios from "axios";
 import setAuthToken from "../../utils/setAuthToken";
 import Alert from "../alert";
 
-const url = "http://localhost:8000/api";
+const url = "https://aqueous-depths-91889.herokuapp.com/api";
 
 // GET USER CONTACTS
 export const getContacts = (pagination) => async (dispatch) => {

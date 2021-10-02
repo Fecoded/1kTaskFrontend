@@ -9,7 +9,7 @@ import axios from "axios";
 import setAuthToken from "../../utils/setAuthToken";
 import Alert from "../alert";
 
-const url = "http://localhost:8000/api";
+const url = "https://aqueous-depths-91889.herokuapp.com/api";
 
 // LOAD USER
 export const loadUser = () => async (dispatch) => {
