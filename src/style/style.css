@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f7f8fc;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="file"],
+input[type="date"],
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  border: 2px solid #ecf2ff;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+
+input[type="submit"] {
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  background-color: #0000ff;
+  border: 2px solid transparent;
+  color: #fff;
+}
+
+button {
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #909090;
+  border: 2px solid transparent;
+  color: #f4f4f4;
+}
+
+.logout {
+  color: red;
+  padding-left: 85rem;
+  cursor: pointer;
+}
